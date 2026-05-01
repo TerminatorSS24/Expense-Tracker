@@ -1,0 +1,25 @@
+.card {
+  background: var(--bg-secondary);
+  border-radius: 10px;
+  padding: 1rem 1.25rem;
+  transition: background 0.2s;
+}
+.label {
+  font-size: 12px;
+  color: var(--text-secondary);
+  margin-bottom: 4px;
+}
+.value {
+  font-size: 24px;
+  font-weight: 500;
+  color: var(--text-primary);
+  line-height: 1.1;
+}
+.sub {
+  font-size: 11px;
+  color: var(--text-muted);
+  margin-top: 3px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

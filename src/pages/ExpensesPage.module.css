@@ -1,0 +1,132 @@
+.page {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 2rem 1.5rem;
+}
+.loading {
+  text-align: center;
+  padding: 4rem;
+  color: var(--text-secondary);
+  font-size: 14px;
+}
+.topBar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1.25rem;
+}
+.title {
+  font-size: 18px;
+  font-weight: 500;
+  color: var(--text-primary);
+}
+.addBtn {
+  padding: 8px 16px;
+  background: var(--text-primary);
+  color: var(--bg);
+  border: none;
+  border-radius: 8px;
+  font-size: 13px;
+  cursor: pointer;
+}
+.filters {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 12px;
+}
+.searchInput {
+  flex: 1;
+}
+.select {
+  width: 160px;
+}
+.summary {
+  font-size: 12px;
+  color: var(--text-secondary);
+  margin-bottom: 10px;
+}
+.tableCard {
+  background: var(--bg-card);
+  border: 0.5px solid var(--border);
+  border-radius: 14px;
+  overflow: hidden;
+  transition: background 0.2s;
+}
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 13px;
+}
+.table thead tr {
+  border-bottom: 0.5px solid var(--border);
+}
+.table th {
+  padding: 10px 16px;
+  text-align: left;
+  font-size: 12px;
+  font-weight: 500;
+  color: var(--text-secondary);
+}
+.table tbody tr {
+  border-bottom: 0.5px solid var(--border);
+  transition: background 0.1s;
+}
+.table tbody tr:last-child {
+  border-bottom: none;
+}
+.table tbody tr:hover {
+  background: var(--bg-secondary);
+}
+.table td {
+  padding: 12px 16px;
+  vertical-align: middle;
+  color: var(--text-primary);
+}
+.desc {
+  display: block;
+  font-weight: 400;
+}
+.note {
+  display: block;
+  font-size: 11px;
+  color: var(--text-muted);
+  margin-top: 2px;
+}
+.badge {
+  font-size: 11px;
+  padding: 3px 9px;
+  border-radius: 99px;
+  display: inline-block;
+  font-weight: 500;
+}
+.date {
+  color: var(--text-secondary);
+  white-space: nowrap;
+}
+.amount {
+  text-align: right;
+  font-weight: 500;
+}
+.right {
+  text-align: right;
+}
+.delBtn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: var(--text-muted);
+  font-size: 13px;
+  padding: 4px 8px;
+  border-radius: 4px;
+  transition: all 0.1s;
+}
+.delBtn:hover {
+  color: #e24b4a;
+  background: #fcebeb;
+}
+.empty {
+  text-align: center;
+  padding: 3rem;
+  color: var(--text-muted);
+  font-size: 14px;
+}
