@@ -14,10 +14,21 @@
     border-color 0.2s;
 }
 .brand {
+  display: flex;
+  align-items: center;
+  gap: 8px;
   font-size: 15px;
   font-weight: 500;
   color: var(--text-primary);
   letter-spacing: -0.3px;
+}
+
+.logo {
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
+  /* makes the grey icon match your theme */
+  filter: grayscale(100%);
 }
 .links {
   display: flex;
