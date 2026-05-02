@@ -114,6 +114,5 @@ Push to GitHub, then import the repo at [vercel.com](https://vercel.com). Add th
 ## What I'd add next
 
 - Monthly budget limits with an alert when you're close to the limit
-- Export expenses to CSV
 - Google Sign-In as an alternative to email/password
 - Mobile app version using React Native

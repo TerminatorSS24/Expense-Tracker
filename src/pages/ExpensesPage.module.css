@@ -130,3 +130,18 @@
   color: var(--text-muted);
   font-size: 14px;
 }
+
+.exportBtn {
+  padding: 8px 16px;
+  background: none;
+  border: 0.5px solid var(--border);
+  border-radius: 8px;
+  font-size: 13px;
+  cursor: pointer;
+  color: var(--text-primary);
+  transition: background 0.15s;
+}
+
+.exportBtn:hover {
+  background: var(--bg-secondary);
+}

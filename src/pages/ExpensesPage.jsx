@@ -2,7 +2,7 @@
 import { useState } from "react";
 import { useExpenses } from "../context/ExpenseContext";
 import { CATEGORIES, CAT_COLORS } from "../hooks/useAnalytics";
-import { formatINR, formatDisplayDate } from "../utils/helpers";
+import { formatINR, formatDisplayDate, exportToCSV } from "../utils/helpers";
 import { useNavigate } from "react-router-dom";
 import styles from "./ExpensesPage.module.css";
 
@@ -41,7 +41,12 @@ export default function ExpensesPage() {
     <div className={styles.page}>
       <div className={styles.topBar}>
         <h1 className={styles.title}>All expenses</h1>
+        <div style={{ display: "flex", gap: "10px" }}>
+          <button className={styles.exportBtn} onClick={() => exportToCSV(filtered)}>
+            ↓ Export CSV
+          </button>
         <button className={styles.addBtn} onClick={() => navigate("/add")}>+ Add expense</button>
+        </div>
       </div>
 
       <div className={styles.filters}>
